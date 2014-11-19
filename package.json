@@ -4,13 +4,15 @@
   "description": "Donation and tuition tracking software for Christian schools.",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js",
+    "start": "node node_modules\\nodemon\\bin\\nodemon.js index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Cliffe Hodgkinson",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.10.2"
+    "express": "^4.10.2",
+    "nodemon": "~1.2.1",
+    "express-livereload": "0.0.24"
   },
   "devDependencies": {
     "grunt": "*",

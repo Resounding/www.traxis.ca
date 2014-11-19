@@ -1,7 +1,14 @@
 ///<reference path="../typings/jquery/jquery.d.ts" />
 ///<reference path="../typings/angularjs/angular.d.ts" />
-module traxis.home {
     'use strict';
 
-    angular.module('traxis', ['angular-material']);
-}
+    angular.module('traxis')
+    	.controller('HomeCtrl', ['$scope', HomeCtrl]);
+
+	function HomeCtrl($scope) {
+		$scope.sections = [
+			"Top",
+			"This is the middle",
+			"Bottom"
+		];
+	}
