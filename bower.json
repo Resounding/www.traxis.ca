@@ -1,0 +1,24 @@
+{
+  "name": "Traxis",
+  "version": "0.0.1",
+  "authors": [
+    "Cliffe Hodgkinson <cliffe@resounding.ca>"
+  ],
+  "description": "Donation and tuition tracking software for Christian schools.",
+  "main": "index.js",
+  "moduleType": [
+    "node"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "1.3.x",
+    "angular-material": "0.5.x"
+  }
+}

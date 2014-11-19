@@ -1,0 +1,20 @@
+{
+  "name": "Traxis",
+  "version": "0.0.1",
+  "description": "Donation and tuition tracking software for Christian schools.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Cliffe Hodgkinson",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.10.2"
+  },
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-typescript": "^0.4.4",
+    "typescript": "^1.3.0"
+  }
+}
