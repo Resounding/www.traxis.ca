@@ -1,0 +1,83 @@
+header, body > div {
+	height: 90vh;
+}
+h1 {
+	margin: 0;
+	padding: 10vh;
+}
+.red {
+	color: #fff;
+	background-color: #f44336;
+}
+.pink {
+	color: #fff;
+	background-color: #e91e63;
+}
+.purple {
+	color: #fff;
+	background-color: #9c27b0;
+}
+.deep-purple {
+	color: #fff;
+	background-color: #673ab7;
+}
+.indigo {
+	color: #fff;
+	background-color: #3f51b5;
+}
+.blue {
+	color: #fff;
+	background-color: #2196F3;
+}
+.light-blue {
+	color: #fff;
+	background-color: #03a9f4;
+}
+.cyan {
+	color: #fff;
+	background-color: #00bcd4;
+}
+.teal {
+	color: #fff;
+	background-color: #009688;
+}
+.green {
+	color: #fff;
+	background-color: #4caf50;
+}
+.light-green {
+	color: #fff;
+	background-color: #8bc34a;
+}
+.lime {
+	color: #000;
+	background-color: #cddc39;
+}
+.yellow {
+	color: #000;
+	background-color: #ffeb3b;
+}
+.amber {
+	color: #000;
+	background-color: #ffc107;
+}
+.orange {
+	color: #000;
+	background-color: #ff9800;
+}
+.deep-orange {
+	color: #fff;
+	background-color: #ff5722;
+}
+.brown {
+	color: #fff;
+	background-color: #795548;
+}
+.grey {
+	color: #000;
+	background-color: #9e9e9e;
+}
+.blue-grey {
+	color: #fff;
+	background-color: #607d8b;
+}
