@@ -5,8 +5,10 @@ module.exports = function (grunt) {
 
     grunt.initConfig({
         open: {
-        	path: 'http://localhost:3000'
-    	},
+            site: {
+                path: 'http://localhost:3000'
+            }
+        },
         watch: {
             options: {
                 livereload: true
@@ -22,16 +24,24 @@ module.exports = function (grunt) {
         },
         touch: {
         	src: ['public/index.html']
-    	}
+    	},
+        concurrent: {
+            options: {
+                logConcurrentOutput: true
+            },
+            'server-and-client': {
+                tasks: ['exec:server', 'open:site', 'watch']
+            }
+        }
     });
 
     grunt.registerTask('server', ['exec:server']);
 
-    grunt.registerTask('client', ['open', 'watch']);
+    grunt.registerTask('client', ['open:site', 'watch']);
 
     grunt.registerTask('reload', ['touch']);
 
     // define the default task that can be run just by typing "grunt" on the command line
     // the array should contains the names of the tasks to run
-    grunt.registerTask('default', ['server', 'client']);
+    grunt.registerTask('default', ['concurrent:server-and-client']);
 };

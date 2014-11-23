@@ -1,10 +1,11 @@
 {
   "name": "Traxis",
   "version": "0.0.1",
+  "repository": "https://github.com/Resounding/www.traxis.ca.git",
   "description": "Donation and tuition tracking software for Christian schools.",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
-    "start": "node node_modules\\nodemon\\bin\\nodemon.js index.js",
+    "start": "node node_modules\\nodemon\\bin\\nodemon.js server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Cliffe Hodgkinson",
