@@ -1,3 +1,4 @@
+/// <vs SolutionOpened='server' />
 module.exports = function (grunt) {
     'use strict';
 
