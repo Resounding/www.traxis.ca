@@ -11,10 +11,10 @@
 
     <link rel="apple-touch-icon" href="apple-touch-icon.png">
 
-    <link href='http://fonts.googleapis.com/css?family=Open+Sans:700,300' rel='stylesheet' type='text/css'>
+    <link href="//fonts.googleapis.com/css?family=Open+Sans:700,300" rel="stylesheet">
     <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
-
-    <style type="text/css">
+    
+    <style>
         html, body {
             margin: 0;
             font-size: 62.5%;
@@ -26,6 +26,25 @@
             margin: 0 auto;
             display: block;
             padding: 10vh 0 0;
+        }
+        footer {
+            margin: 0;    
+        }
+        footer p {
+            margin: 0 auto;
+            padding: 1rem;
+            font-size: 2rem;
+            text-align: center;
+        }
+        footer p a,
+        footer p a:active,
+        footer p a:visited,
+        footer p a:hover {
+            color: #000;
+        }
+        footer img {
+            max-height: 3rem;
+            vertical-align: bottom;
         }
         h1 {
             font-style: normal;
@@ -71,8 +90,6 @@
             color: #fff;
         }
         a:hover {
-            background-color: #fff;
-	        color: #00bcd4;
             text-decoration: none;
         }
         .blue {
@@ -108,6 +125,16 @@
 	        background-color: #00bcd4;
         }
     </style>
+    <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-36459969-4', 'auto');
+  ga('send', 'pageview');
+
+    </script>
 </head>
 <body>
     <header class="blue">
@@ -170,6 +197,13 @@
             <a href="mailto:cliffe@resounding.ca">Drop us a line</a>
             to find out more or schedule a demo.
         </h2>
-</section>
+    </section>
+    <footer class="grey">
+        <p>
+            Traxis is powered by
+            <a href="http://www.resounding.ca">Resounding Software.</a>
+            <img src="/img/resounding.png" alt="Resounding Software Logo">
+        </p>
+    </footer>
 </body>
 </html>
