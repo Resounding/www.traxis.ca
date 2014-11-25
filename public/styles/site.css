@@ -1,22 +1,62 @@
-body {
-    font-family: 'RobotoDraft', sans-serif;
+html, body {
+    font-size: 62.5%;
+    font-family: 'Open Sans', sans-serif;
 }
-header, body > section,
 header > img {
-	height: 50vh;
+	max-height: 25vh;
+    max-width: 90%;
+    margin: 0 auto;
+    display: block;
+    padding: 10vh 0 0;
 }
 h1 {
-	font-size: 4rem;
+    font-style: normal;
+    font-weight: 700;
+	font-size: 7rem;
     text-align: center;
 	padding: 10vh 4rem 5vh;
 	margin: 0;
 }
+header h1 {
+    padding-top: 5vh;
+}
 h2 {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 2.5rem;
 	text-align: center;
 	padding-bottom: 10vh;
 	margin: 0 auto;
 	max-width: 600px;
 }
+@media (max-width: 1200px) {
+    h1 {
+        font-size: 5rem;        
+    }
+}
+@media (max-width: 960px) {
+    h1 {
+        font-size: 4rem;
+    }
+}
+@media (max-width: 767px) {
+    h1 {
+        font-size: 3rem;
+        padding: 5vh 4rem 3vh;
+    }
+    h2 {
+        margin: 0 15px 0;
+        padding-bottom: 15px;
+    }
+}
+a, a:visited, a:active {
+    color: #fff;
+}
+    a:hover {
+        background-color: #fff;
+	    color: #00bcd4;
+        text-decoration: none;
+    }
 .red {
 	color: #fff;
 	background-color: #f44336;

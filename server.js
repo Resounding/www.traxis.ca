@@ -1,8 +1,6 @@
 var express = require('express'),
-    app = express(),
-    livereload = require('express-livereload');
+    app = express();
 
-//livereload(app, { });
 app.use('/', express.static(__dirname + '/public'));
 app.use('/app', express.static(__dirname + '/app'));
 app.use('/lib', express.static(__dirname + '/bower_components'));
